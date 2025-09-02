@@ -61,16 +61,16 @@ const EventDetailPage = () => {
 
   const sponsors = {
     main: [
-      { name: "Ana Sponsor", logo: "/logos/Ana.png" }
+      { name: "Ana Sponsor", logo: "public/Ana.png" }
     ],
     others: [
-      { name: "Sponsor 7", logo: "/logos/sponsor1.png" },
-      { name: "Sponsor 1", logo: "/logos/sponsor2.svg" },
-      { name: "Sponsor 2", logo: "/logos/sponsor3.png" },
-      { name: "Sponsor 3", logo: "/logos/sponsor4.svg" },
-      { name: "Sponsor 4", logo: "/logos/sponsor5.png" },
-      { name: "Sponsor 5", logo: "/logos/sponsor6.png" },
-      { name: "Sponsor 6", logo: "/logos/sponsor7.png" }
+      { name: "Sponsor 1", logo: "public/sponsor1.png" },
+      { name: "Sponsor 2", logo: "src/assets/sponsor2.svg" },
+      { name: "Sponsor 3", logo: "public/sponsor3.png" },
+      { name: "Sponsor 4", logo: "src/assets/sponsor4.svg" },
+      { name: "Sponsor 5", logo: "public/sponsor5.png" },
+      { name: "Sponsor 6", logo: "public/sponsor6.png" },
+      { name: "Sponsor 7", logo: "public/sponsor7.png" }
     ]
   };
 
