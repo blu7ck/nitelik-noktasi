@@ -2,6 +2,9 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Calendar, MapPin, Users, Clock } from 'lucide-react';
 import VideoSection from '../components/VideoSection';
+import eventImage from '../assets/image.svg';
+import sponsor2Logo from '../assets/sponsor2.svg';
+import sponsor4Logo from '../assets/sponsor4.svg';
 
 const EventDetailPage = () => {
   const { eventId } = useParams();
@@ -13,7 +16,7 @@ const EventDetailPage = () => {
     location: "Ankara Bilkent Cyberpark",
     description: "Teknoloji ve inovasyonun geleceğini şekillendiren profesyonellerle buluşun. Derinlikli bilgi ve nitelikli ağ fırsatları.",
     participants: "Nitelikli Profesyoneller",
-    image: "/src/assets/image.svg"
+    image: eventImage
   };
 
   const sessions = [
@@ -65,9 +68,9 @@ const EventDetailPage = () => {
     ],
     others: [
       { name: "Sponsor 1", logo: "/sponsor1.png" },
-      { name: "Sponsor 2", logo: "/src/assets/sponsor2.svg" },
+      { name: "Sponsor 2", logo: sponsor2Logo },
       { name: "Sponsor 3", logo: "/sponsor3.png" },
-      { name: "Sponsor 4", logo: "/src/assets/sponsor4.svg" },
+      { name: "Sponsor 4", logo: sponsor4Logo },
       { name: "Sponsor 5", logo: "/sponsor5.png" },
       { name: "Sponsor 6", logo: "/sponsor6.png" },
       { name: "Sponsor 7", logo: "/sponsor7.png" }

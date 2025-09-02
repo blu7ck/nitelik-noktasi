@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import logoImage from '../assets/image.svg';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3 -ml-8">
               <img 
-                src="/src/assets/image.svg" 
+                src={logoImage} 
                 alt="Nitelik Noktası" 
                 className="h-8 w-auto"
               />

@@ -27,6 +27,8 @@ const SponsorshipPage = () => {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
+
+
     try {
       // EmailJS template parameters
       const templateParams = {

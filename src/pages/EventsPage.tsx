@@ -1,6 +1,7 @@
 import React from 'react';
 import { Calendar, MapPin, Users, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import eventImage from '../assets/image.svg';
 
 const EventsPage = () => {
   const events = [
@@ -11,7 +12,7 @@ const EventsPage = () => {
       location: "Ankara Bilkent Cyberpark",
       description: "Teknoloji ve inovasyonun geleceğini şekillendiren profesyonellerle buluşun. Derinlikli bilgi ve nitelikli ağ fırsatları.",
       participants: "Nitelikli Profesyoneller",
-      image: "/src/assets/image.svg"
+      image: eventImage
     }
     // Future events can be added here
   ];
