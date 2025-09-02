@@ -15,7 +15,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3 -ml-8">
               <img 
-                src="src/assets/image.svg" 
+                src="/src/assets/image.svg" 
                 alt="Nitelik Noktası" 
                 className="h-8 w-auto"
               />

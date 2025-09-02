@@ -62,7 +62,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex flex-col items-center space-y-4">
               <img 
-                src="public/tmlogo.png" 
+                src="/tmlogo.png" 
                 alt="Teknoloji Menajeri" 
                 className="h-36 w-auto"
               />

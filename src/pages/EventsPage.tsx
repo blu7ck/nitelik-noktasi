@@ -11,7 +11,7 @@ const EventsPage = () => {
       location: "Ankara Bilkent Cyberpark",
       description: "Teknoloji ve inovasyonun geleceğini şekillendiren profesyonellerle buluşun. Derinlikli bilgi ve nitelikli ağ fırsatları.",
       participants: "Nitelikli Profesyoneller",
-      image: "/logos/image.svg"
+      image: "/src/assets/image.svg"
     }
     // Future events can be added here
   ];
