@@ -98,9 +98,14 @@ const SponsorshipPage = () => {
               çoğu zaman takipçi sayısı, görünürlük ve yüzeysel anlatımlar öne çıkarken, biz "az bilinen ama 
               çok bilen" isimleri ön plana çıkarıyoruz.
             </p>
-            <p className="font-semibold text-red-600">
-              Vizyonumuz: "Niteliği algoritmalar değil, insanlar belirler"
-            </p>
+            <div className="text-center mb-4">
+              <h2 className="text-2xl font-bold text-red-600 underline mb-2">
+                VİZYONUMUZ
+              </h2>
+              <p className="text-lg text-gray-700">
+                "Niteliği algoritmalar değil, insanlar belirler"
+              </p>
+            </div>
           </div>
         </div>
 
